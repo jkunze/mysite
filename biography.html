@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>jkunze - John Andrew Kunze Biography</title>
+<title>jkunze - John Andrew Kunze – Biography</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -39,11 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -62,11 +63,33 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">jkunze</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -75,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">John Andrew Kunze Biography</h1>
+<h1 class="title">John Andrew Kunze – Biography</h1>
 </div>
 
 
@@ -100,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <p>In 1995 John handed off termcap maintenance to Eric Raymond (author of <em>The Cathedral and the Bazaar</em>) and joined the Center for Knowledge Management (CKM) in the Library of the University of California San Francisco (UCSF). The CKM had launched the SIGWEB meeting series and quite recently had been at the heart of two controversies. Three CKM staff members had departed to create Eolas, a firm that many saw as a patent troll and which later won a patent judgement of over $550 million. Unrelated, the CKM had also just exploited the then new image delivery capabilities of the web to mount online scanned images of stolen tobacco company documents, an act that would become a landmark in tobacco litigation, academic freedom, government policy, and the fight against corporate control of information. Taking up the latter, he created systems and protocols for digitizing, searching, and identifying industry documents that would help UCSF build a multi-million-page document library that has been a crucial resource in the global regulation of tobacco.</p>
 <p>In 1998 John resumed a fellowship with the NLM, where he was asked to evaluate existing approaches to the problem of persistently referencing things that URLs linked to: URN, Handle, PURL, and DOI. In his view these approaches had all accepted a flawed hypothesis that, in this instance, reduced a complex, socio-organizational service-sustainability problem to one of simple “indirection”. He suspected the blame lay with the dazzling success that DNS had recently achieved in using indirection to make hostnames persistent. He argued that even if one accepted the hypothesis, none of the existing approaches were needed since anyone who had a web server and a carefully chosen hostname already possessed a “solution” (unless one also wanted to hire a junior developer to create a simple admin interface to maintain a two-column indirection table). In 2000 he co-authored a set of NLM “permanence ratings” to specify the multi-dimensional ways in which a web resource might change – the object itself, its content, its identifier – within an institution’s commitment to that resource. He finished the NLM work with a recommendation not to bother with existing persistent identifier (PID) systems when creating links, and just to assign and manage URLs carefully according to a short list of guiding principles.</p>
 <p>John thought he was done with PIDs, but that wasn’t to be when he joined the California Digital Library (CDL) in 2001. In devising a strategy for link persistence, his NLM work didn’t help one gauge the persistence of URLs received from elsewhere. The vast majority of URLs in the world are not meant to persist, so it seems useful to be able to distinguish those that <em>are</em> meant to persist. This led to his creating the Archival Resource Key (ARK), a scheme for a distinguishable URL that can reference a resource of any type, without fees, and that is globally unique independent of hostname or HTTP. To gauge its persistence, a user can “inflect” the ARK by adding “??” to the end in order to request metadata and a nuanced (non-binary) commitment statement. It combined his guiding principles, the NLM permanence ratings, the CDL use case, ERC/ANVL Kernel metadata, and his new scheme agnostic protocol (THUMP) for inflecting URLs. For ARK implementers, he created the open source Noid (Nice Opaque Identifier) software. Noid was a fast scalable tool that could mint, bind, and resolve identifiers of any kind. It was not purely an ARK tool, since he had conceived the ARK partly out of opposition to the exclusionary practices adopted by other identifier systems that sought to capture markets and lock users in. So while most people use Noid with ARKs, some use it with Handles.</p>
-<p>In 2003 John began working with the CDL’s new preservation program. The CDL adopted ARKs along with other University of California campuses. He gave presentations on ARKs once or twice a year and within a decade 168 institutions had registered to use them, including heavy adopters such as the National Library of France and the Internet Archive. While working on a Library of Congress grant, he wrote the BagIt packaging format (RFC8493) and drafted the first version of the web archiving (WARC) standard, both of which are widely used in digital repository and web harvesting systems. The latter uses an early version of his ANVL metadata format. During that time he also specified and implemented a handful of digital repository microservices used at CDL and other digital libraries across the world: Pairtree, Namaste, ReDD, oxum, Checkm. Several of these were re-implemented independently based on his specifications and are used in such places as the HathiTrust and OCFL-based systems. Although ARKs are decentralized by design, he created N2T.net in response to demand for a centralized ARK resolver. He also conceived CDL’s EZID system in response to demand for a front-end identifier management microservice decoupled from any one preservation storage repository. N2T and EZID were unique in the world for their scheme-agnostic approach to managing and resolving individual identifiers. Neither system was purely about ARKs for the same reason that Noid is not purely an ARK tool.</p>
+<p>In 2003 John began working with the CDL’s new preservation program. The CDL adopted ARKs along with other University of California campuses. He gave presentations on ARKs once or twice a year and within a decade 168 institutions had registered to use them, including heavy adopters such as the National Library of France and the Internet Archive. While working on a Library of Congress grant, he wrote the BagIt packaging format (RFC8493) and drafted the first version of the web archiving (WARC) standard, both of which are widely used in digital repository and web harvesting systems. The latter uses an early version of his ANVL metadata format. During that time he also specified and implemented a handful of digital repository microservices used at CDL and other digital libraries across the world: Pairtree, Namaste, ReDD, oxum, Checkm. Several of these were re-implemented independently based on his specifications and are used in such places as the HathiTrust and OCFL-based systems. Although ARKs are decentralized by design, he created N2T.net in response to demand for a centralized ARK resolver. He also conceived the EZID system in response to demand for a front-end identifier management microservice that could be used with multiple storage repositories. N2T and EZID were unique in the world for their scheme-agnostic approach to managing and resolving individual identifiers. Neither system was purely about ARKs for the same reason that Noid is not purely an ARK tool.</p>
 <p>In 2005 John resurrected the Digital Library Federation’s Developers Forum and chaired it for three years. In 2006 he went on a six-week fellowship with the University of Edinburgh to consider the emerging topic of PIDs and citations for scientific data. That fellowship resulted in CDL being invited to join the 5-year NSF DataONE grant, where he chaired the Preservation and Metadata Working Group starting in 2009. During this period he was also technical lead on collaborations with Microsoft Research and the Moore Foundation.</p>
 <p>The DataONE involvement led to his creating yamz.net, which was the first realization of his 1996 vision for a crowdsourced “metadictionary” vocabulary builder. Around this time John created the “suffix passthrough” capability that permits N2T to resolve millions of identifiers on the basis of one registered identifier (similar to PURL’s “partial redirect”). In 2017 a formal collaboration with identifiers.org resulted in their adopting N2T’s “compact identifier” syntax and N2T’s adopting their curated ruleset of 600+ identifier schemes. That same year saw registration of the 419th ARK institution and his publication of a “persistence” vocabulary that considerably expanded on the NLM permanence ratings from 2000. In 2018 the National Library of France held a two-day, 350-person French-language ARK Summit in Paris, for which he gave the keynote address.</p>
 <p>By the end of 2018, with CDL’s support to focus on ARKs, John spearheaded creation of what would become the ARK Alliance (arks.org). Over 500 institutions had registered and created over 8 billion ARKs, and for the first time ARKs had their own organization, including an advisory group and outreach, technical, and sustainability working groups. With the registration rate roughly doubling each year, four years later there were over 1000 ARK institutions. In 2022 John left the University of California to work with partners to keep the ARK Alliance moving towards self-sufficiency and to pursue his interest in the Decentralized Web (DWeb).</p>
