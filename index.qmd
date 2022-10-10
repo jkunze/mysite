@@ -1,7 +1,73 @@
 ---
-title: "jkunze"
+title: <img src="jkmain_2017jan.jpg" width="50px" alt="John A. Kunze, 2017"/> John Andrew Kunze <a href="https://namedrop.io/johnkunze"> <img src="nd_logo_icon.png" width="20px" height="20px" alt="how to pronounce"/> </a>
 ---
 
-This is my second test Quarto website.
+<!--
+<img src="jkmain_2017jan.jpg" width="70px" alt="John A. Kunze, 2017"/> John Andrew Kunze
+<a href="https://namedrop.io/johnkunze"> <img src="nd_logo_icon.png"
+    width="20px" height="20px" alt="how to pronounce"/> </a>
+<img src="nd_logo_icon.png" width="20px" height="20px"
+              alt="how to pronounce"/>
+[![](nd_logo_icon.png)](https://namedrop.io/johnkunze)
+-->
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Brief Bio &nbsp; <a style="font-size:medium" href="biography.html">(extended bio here)</a>
+
+John Kunze is a pioneer in the theory and practice of digital libraries. With
+a background in computer science and mathematics, he wrote BSD Unix software
+tools that come pre-installed with Mac and Linux systems. He created the ARK
+identifier scheme, the N2T.net scheme-agnostic resolver (which redirects over
+600 kinds of CURIEs, or "compact identifiers"), and contributed heavily to the
+first standards for URLs (RFC1736, RFC1625, RFC2056), for library search and
+retrieval (Z39.50), for archival transfer (BagIt - RFC8493), for web archiving
+(WARC), and for metadata (RFC2413, RFC2731, ANSI/NISO Z39.85). His specs and
+tools for repository microservices -- Pairtree, Namaste, ReDD, oxum, ERC/ANVL,
+TEMPER, THUMP -- may be found in such places as the HathiTrust and OCFL.
+Follow-on work in metadata includes creation of the Dublin Kernel and Yamz.net.
+His current work focus is the ARK Alliance (arks.org), Yamz, and the DWeb.
+
+## ![](infinity.gif) Persistent Identifiers
+
+* The <a href="https://arks.org">ARK Alliance</a>
+* Long-term identifiers made easy: <a href="https://ezid.cdlib.org">EZID</a>
+* The N2T (Name-to-Thing) Resolver: <a href="https://n2t.net">n2t.net</a>
+<br/>
+Low-cost, low-risk resolver discovery (ARKs, DOIs, et al), suffix passthrough, meta-resolving, and namespace splitting (<a href="n2t_net_ipres_jak.ppt">2006 PPT slides</a>)
+* <a href="https://doi.org/10.5334/dsj-2017-039">
+Persistence Statements: Describing Digital Stickiness
+</a>
+* <a href="https://arks.org/about">ARK Identifier Overview</a>
+* <a href="https://n2t.net/ark:/13030/c7n00zt1z"> Towards Electronic Persistence Using ARK Identifiers (PDF)</a>
+* <a href="http://n2t.net/e/noid.html"> Noid (Nice Opaque Identifier) Minting and Binding Tool</a>
+* <a href="https://www.ietf.org/archive/id/draft-kunze-ark-27.txt"> The ARK Identifier Scheme</a>
+technical specification
+
+## Kernel Metadata and ERCs
+
+* <a href="https://n2t.net/ark:/13030/c7sn0141m"> Kernel and ERC Specification</a>; very simple metadata
+  - <a href="http://dublincore.org/groups/kernel/"> Kernel Community (within the Dublin Core Metadata Initiative)</a>
+
+* <a href="https://n2t.net/ark:/13030/c7rr1pm49"> A Metadata Kernel for Electronic Permanence (PDF)</a>
+published in the Journal of Digital Information Vol 2, Issue 2, October 2001
+
+* <a href="https://datatracker.ietf.org/doc/html/rfc5013">
+The Dublin Core Metadata Element Set (August 2007)</a>
+
+<!--
+<a id="repository-microservices" class="anchor" href="#repository-microservices" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+Repository Microservices
+ 
+<li><a href="checkmspec.html">Checkm: a checksum-based manifest format</a>
+-->
+
+<br/>
+<small>
+<hr/>
+<center>
+<a href="biography.html">John A. Kunze</a> &nbsp; &nbsp; &nbsp; &nbsp; <!-- <a href="cv.html"> Curriculum Vitae </a> --> <a href="presentations.html"> Selected Presentations </a>
+<br/>
+ARK Alliance -- Ronin Institute
+<br/>
+Twitter: @jakkbl
+</center>
+</small>
